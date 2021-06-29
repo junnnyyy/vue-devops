@@ -35,7 +35,7 @@ jobs:
         run: yarn install
       
       - name: Test unit
-        run: uarn test:unit
+        run: yarn test:unit
 
       - name: Build page
         run: yarn build
